@@ -1,0 +1,101 @@
+{
+ "B": {
+  "workflow": "B",
+  "name": "Python search + one ANSYS check",
+  "final": {
+   "width_mm": 20.0,
+   "height_mm": 86.0,
+   "model_source": "ansys",
+   "mass_kg": 13.502,
+   "deflection_mm": 1.0137693025171757,
+   "nominal_stress_mpa": 99.73953910567636,
+   "status": "ok",
+   "feasible": false,
+   "deflection_margin_mm": -0.013769302517175674,
+   "stress_margin_mpa": 20.260460894323643,
+   "elapsed_s": 231.20514512062073,
+   "cache_hit": false,
+   "evaluation_id": 11,
+   "ansys_mesh": {
+    "search_mesh_mm": 8.0,
+    "strip_mesh_mm": 5.0,
+    "nodes": 22128,
+    "elements": 4125
+   },
+   "project_version": "Workbench 261",
+   "error": null
+  },
+  "counts": {
+   "python": 10,
+   "ansys": 1,
+   "invalid": 0
+  },
+  "wall_s": 241.207599401474
+ },
+ "C": {
+  "workflow": "C",
+  "name": "Adaptive tool selection",
+  "final": {
+   "width_mm": 21.0,
+   "height_mm": 85.0,
+   "model_source": "ansys",
+   "mass_kg": 14.012250000000002,
+   "deflection_mm": 0.9990965481847525,
+   "nominal_stress_mpa": 97.257473672555,
+   "status": "ok",
+   "feasible": true,
+   "deflection_margin_mm": 0.0009034518152475357,
+   "stress_margin_mpa": 22.742526327445006,
+   "elapsed_s": 1.049041748046875e-05,
+   "cache_hit": true,
+   "evaluation_id": 13,
+   "ansys_mesh": {
+    "search_mesh_mm": 8.0,
+    "strip_mesh_mm": 5.0,
+    "nodes": 22128,
+    "elements": 4125
+   },
+   "project_version": "Workbench 261",
+   "error": null
+  },
+  "counts": {
+   "python": 7,
+   "ansys": 6,
+   "invalid": 0
+  },
+  "wall_s": 1041.5121896266937
+ },
+ "A": {
+  "workflow": "A",
+  "name": "ANSYS throughout",
+  "final": {
+   "width_mm": 20.0,
+   "height_mm": 86.5,
+   "model_source": "ansys",
+   "mass_kg": 13.580500000000002,
+   "deflection_mm": 0.9967384394258261,
+   "nominal_stress_mpa": 98.58076834633698,
+   "status": "ok",
+   "feasible": true,
+   "deflection_margin_mm": 0.0032615605741739273,
+   "stress_margin_mpa": 21.41923165366302,
+   "elapsed_s": 7.3909759521484375e-06,
+   "cache_hit": true,
+   "evaluation_id": 11,
+   "ansys_mesh": {
+    "search_mesh_mm": 8.0,
+    "strip_mesh_mm": 5.0,
+    "nodes": 22128,
+    "elements": 4125
+   },
+   "project_version": "Workbench 261",
+   "error": null
+  },
+  "counts": {
+   "python": 0,
+   "ansys": 11,
+   "invalid": 0
+  },
+  "wall_s": 2104.811274290085
+ }
+}

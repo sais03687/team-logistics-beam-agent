@@ -1,0 +1,16 @@
+1. out of bounds             status=error  source=ansys  cache_hit=False numbers=[None, None, None, None] error=ValueError: dimensions outside design bounds
+  [1/3] starting or reusing Workbench session
+  [2/3] rebuilding geometry in SpaceClaim and refreshing model
+  ANSYS connection lost; session will restart on next call
+2. simulated crash           status=error  source=ansys  cache_hit=False numbers=[None, None, None, None] error=RuntimeError: simulated ANSYS crash (UNAVAILABLE)
+  [1/3] starting or reusing Workbench session
+  [2/3] rebuilding geometry in SpaceClaim and refreshing model
+  ANSYS connection lost; session will restart on next call
+3. retry same design         status=error  source=ansys  cache_hit=False numbers=[None, None, None, None] error=RuntimeError: simulated ANSYS crash (UNAVAILABLE)
+  [1/3] starting or reusing Workbench session
+  [2/3] rebuilding geometry in SpaceClaim and refreshing model
+  ANSYS connection lost; session will restart on next call
+4a. cached design            status=ok     source=ansys  cache_hit=True numbers=[31.4, 0.501, 46.1, True] error=
+4b. different design         status=error  source=ansys  cache_hit=False numbers=[None, None, None, None] error=RuntimeError: simulated ANSYS crash (UNAVAILABLE)
+
+ALL FAILURE-HANDLING CHECKS PASSED

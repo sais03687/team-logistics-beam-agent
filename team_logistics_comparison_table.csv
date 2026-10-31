@@ -1,0 +1,4 @@
+workflow,final_b_mm,final_h_mm,ansys_mass_kg,ansys_deflection_mm,ansys_stress_mpa,ansys_feasible,ansys_requests,ansys_new_solves,python_runs,invalid_proposals,tool_time_s,llm_time_s
+A,20.0,86.5,13.581,0.9967,98.58,True,11,9,0,0,2091.3,13.5
+B,20.0,86.0,13.502,1.0138,99.74,False,1,1,10,0,231.2,10.0
+C,21.0,85.0,14.012,0.9991,97.26,True,6,5,7,0,1029.6,11.9
