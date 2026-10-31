@@ -1,0 +1,6 @@
+ansys-workbench-core
+ansys-mechanical-core
+openai
+pandas
+matplotlib
+numpy
