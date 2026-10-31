@@ -5,6 +5,14 @@ midspan) with an AI agent that chooses designs and evaluation tools (fast Python
 a 3D ANSYS Mechanical model), under a Python controller that enforces bounds, permissions and
 budgets.
 
+## Team
+
+- **Sai Suram**: code (Python–ANSYS integration, agent and controller, workflows, notebook, repository)
+- **Alex**: ANSYS models (geometry, supports, load, mesh, probe, mesh study, screenshots)
+- **Jaxson**: graphs (comparison plots and result figures)
+
+Report: `team_logistics_beam_report.pdf`
+
 ## Requirements
 
 - Windows, ANSYS 2026 R1 (Student is enough; the largest model used has about 117k nodes)
